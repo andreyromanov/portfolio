@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <h1>This is Home page with details</h1>
     <HelloWorld msg="Welcome to my Portfolio" />
   </div>
 </template>

@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-md-3 border py-2">
             <img src="/author.jpg" class="rounded mx-auto d-block img-user" alt="Me">
-            <ul class="list-group mt-3">
+            <ul id="info-list" class="list-group mt-3 text-left">
               <li class="list-group-item">
                 <i class="far fa-user"></i>
                 <span class="user-info">Andrii Romanov</span>

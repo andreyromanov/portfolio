@@ -24,9 +24,10 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-9 border">
+          <div id="main-container" class="col-md-9 border py-2">
+            <router-link to="/about">About Me</router-link> |
             <router-link to="/">Home</router-link> |
-            <router-link to="/about">About Me</router-link>
+            <router-link to="#">Projects</router-link>
             <router-view />
           </div>
         </div>

@@ -4,7 +4,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 border py-2">
-            <img src="/author.jpg" class="rounded mx-auto d-block img-user" alt="Me">
+            <img
+              src="/author.jpg"
+              class="rounded mx-auto d-block img-user"
+              alt="Me"
+            />
             <ul id="info-list" class="list-group mt-3 text-left">
               <li class="list-group-item">
                 <i class="far fa-user"></i>
@@ -25,9 +29,10 @@
             </ul>
           </div>
           <div id="main-container" class="col-md-9 border py-2">
-            <router-link to="/about">About Me</router-link> |
-            <router-link to="/">Home</router-link> |
-            <router-link to="#">Projects</router-link>
+            <router-link to="/">Welcome</router-link> |
+            <router-link to="/skills">Skills</router-link> |
+            <router-link to="/projects">Projects</router-link>
+
             <router-view />
           </div>
         </div>

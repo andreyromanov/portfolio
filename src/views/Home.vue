@@ -1,8 +1,7 @@
 <template>
   <div class="home">
-
     <HelloWorld msg="Welcome to my Portfolio" />
-    
+    <transition appear>
      <p class="text-left mt-4">Andrii Romanov is a skilled web developer, who is specialized in structuring and developing websites. 
 	<br><br>
 	Andrii enjoys doing both frontend and backend jobs. 
@@ -21,7 +20,9 @@
 	<br><br>
 	His broad and profound experiences in all types of Web Development, mentioned technical and language skills makes him a great candidate for both corporate IT services and outsourcing work. 
 </p>
-  </div>
+</transition>
+</div>
+  
 </template>
 
 <script>

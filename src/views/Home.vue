@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <HelloWorld msg="Welcome to my Portfolio" />
-    <transition appear>
+    <transition appear name="fade">
      <p class="text-left mt-4">Andrii Romanov is a skilled web developer, who is specialized in structuring and developing websites. 
 	<br><br>
 	Andrii enjoys doing both frontend and backend jobs. 

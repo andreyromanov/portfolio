@@ -1,6 +1,6 @@
 <template>
   <div class="skills">
-    Skills
+  	<transition appear name="fade">
     <ul class="mt-5">
     	<li>PHP</li>
     	<li>Laravel</li>
@@ -10,5 +10,6 @@
     	<li>Jquery</li>
     	<li>MySQL</li>
     </ul>
+</transition>
   </div>
 </template>

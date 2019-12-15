@@ -50,8 +50,42 @@
 }
 
 .fade-enter-active, .fade-leave-active {
-  transition: opacity 2s;
+  transition: opacity 1.5s;
 }
 .fade-enter, .fade-leave-to {
   opacity: 0;
 }
+
+.cards{
+   height: 200px;
+   line-height: 200px;
+   text-align: center;
+ }
+ #ut:hover{
+   cursor: pointer;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   background-color: rgba(227, 76, 2, 0.5);
+ }
+
+ #wc:hover{
+   cursor: pointer;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   background-color: lightblue;
+ }
+
+ #mt:hover{
+   cursor: pointer;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   background-color: lightgreen;
+ }
+
+ #st:hover{
+   cursor: pointer;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   background-color: orange;
+ }
+ 
+ a.card-a{
+   text-decoration: none!important;
+   color: #636b6f!important;
+ }

@@ -3,7 +3,7 @@
     <div id="nav">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 border py-2">
+          <div id="nav-div" class="col-md-3 py-2">
             <img
               src="/author.jpg"
               class="rounded mx-auto d-block img-user"

@@ -19,3 +19,8 @@ new Vue({
   router,
   render: h => h(App)
 }).$mount("#app");
+
+/* eslint-disable no-console */
+//console.log('bordered')
+//var nav = document.getElementById("nav-div");
+//nav.classList.add("border");

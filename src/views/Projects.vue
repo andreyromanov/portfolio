@@ -4,7 +4,7 @@
     <div class="row mt-5">
     	<div class="col-md-6 col-xs-12 mb-3">
     		<div class="card">
-    			<router-link to="/uatao" target= '_blank' >
+    			<router-link to="/uatao">
                   <a class="card-a">
                     <div id="ut" class="card-body cards">
                         <h2 class="card-title">UA-TAO</h2>
@@ -15,7 +15,7 @@
         </div>
     	<div class="col-md-6 col-xs-12 mb-3">
 	    	<div class="card">
-	    		<router-link to="/wrapcrowd" target= '_blank' >
+	    		<router-link to="/wrapcrowd">
 	                  <a class="card-a">
 	                    <div id="wc" class="card-body cards">	                        
 					        <img
@@ -30,7 +30,7 @@
 	    </div>
     	<div class="col-md-6 col-xs-12 mb-3">
 	    	<div class="card">
-	    		<router-link to="/mebtex" target= '_blank' >
+	    		<router-link to="/mebtex">
 	                  <a class="card-a">
 	                    <div id="mt" class="card-body cards">
 	                        <img
@@ -45,7 +45,7 @@
 	    </div>
 	    <div class="col-md-6 col-xs-12 mb-3">
 	    	<div class="card">
-	    		<router-link to="/skytex" target= '_blank' >
+	    		<router-link to="/skytex">
 	                  <a class="card-a">
 	                    <div id="st" class="card-body cards">
 	                        <h2 class="card-title">Skytex</h2>

@@ -27,12 +27,39 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Projects.vue")
+  },
+  {
+    path: "/skytex",
+    name: "skytex",
+    meta: {layout: "top_menu"},
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/projects/skytex.vue")
+  },
+  {
+    path: "/mebtex",
+    name: "mebtex",
+    meta: {layout: "top_menu"},
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/projects/mebtex.vue")
+  },
+  {
+    path: "/uatao",
+    name: "uatao",
+    meta: {layout: "top_menu"},
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/projects/uatao.vue")
+  },
+  {
+    path: "/wrapcrowd",
+    name: "wrapcrowd",
+    meta: {layout: "top_menu"},
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/projects/wrapcrowd.vue")
   }
 ];
 
 const router = new VueRouter({
-  mode: "history",
-  base: process.env.BASE_URL,
+  mode: "hash",
   routes
 });
 

@@ -1,8 +1,8 @@
 <template>
 	<div>
 		<img
-              src="/projects/mebtex/mt-1.png"
-              class="rounded mx-auto d-block"
+              src="/projects/mebtex/mt-1-min.png"
+              class="rounded mx-auto d-block proj-img"
               alt="Me"
             />
 	</div>

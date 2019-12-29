@@ -1,8 +1,8 @@
 <template>
 	<div>
 		<img
-              src="/projects/skytex/st-1.png"
-              class="rounded mx-auto d-block"
+              src="/projects/skytex/st-1-min.png"
+              class="rounded mx-auto d-block proj-img"
               alt="Me"
             />
 	</div>

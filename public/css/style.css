@@ -122,3 +122,6 @@
   animation: 2s ease-out 0s 1 slideInFromBottom;
   
 }
+ .proj-img{
+  width: 100%;
+ }

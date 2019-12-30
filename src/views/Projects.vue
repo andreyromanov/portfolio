@@ -13,6 +13,17 @@
                 </router-link>
             </div>
         </div>
+         <div class="col-md-6 col-xs-12 mb-3">
+	    	<div class="card">
+	    		<router-link to="/u-build">
+	                  <a class="card-a">
+	                    <div id="ub" class="card-body cards">
+	                        <h2 class="card-title">U-build</h2>
+	                    </div>
+	                  </a>
+	            </router-link>
+            </div>
+	    </div>
     	<div class="col-md-6 col-xs-12 mb-3">
 	    	<div class="card">
 	    		<router-link to="/wrapcrowd">

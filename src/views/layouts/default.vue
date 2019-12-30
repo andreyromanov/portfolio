@@ -26,6 +26,15 @@
                 <i class="far fa-map"></i>
                 <span class="user-info">Odesa, Ukraine</span>
               </li>
+              <li class="list-group-item">
+                <button
+              v-for="lang in $ml.list"
+              :key="lang"
+              @click="$ml.change(lang)"
+              v-text="lang"
+              class="ml-3"
+            />
+              </li>
             </ul>
           </div>
           <div id="main-container" class="col-md-9 border py-2">

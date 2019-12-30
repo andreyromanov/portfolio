@@ -48,6 +48,10 @@
   }
 
 @media screen and (max-width: 757px) {
+  .prj-menu{
+    width: 30%;
+  }
+
   #main-container{
   	margin-top: 25px;
   }
@@ -129,4 +133,9 @@
 }
  .proj-img{
   width: 100%;
+ }
+ 
+ .badge{
+  font-size: 14px!important;
+  margin-bottom: 5px;
  }

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div id="nav" class="p-md-3">
       <div class="container">
         <div class="row">
           <div id="nav-div" class="col-md-3 py-2">
@@ -32,7 +32,7 @@
               :key="lang"
               @click="$ml.change(lang)"
               v-text="lang"
-              class="ml-3"
+              class="ml-3 btn btn-primary"
             />
               </li>
             </ul>
@@ -60,7 +60,7 @@
 }
 
 #nav {
-  padding: 20px;
+  
 
   a {
     font-weight: bold;

@@ -1,8 +1,7 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="Welcome to my Portfolio" />
+  <div class="home pt-4">
     <transition appear name="fade">
-     <p class="text-left mt-4">Andrii Romanov is a skilled web developer, who is specialized in structuring and developing websites. 
+     <p class="text-left">Andrii Romanov is a skilled web developer, who is specialized in structuring and developing websites. 
 	<br><br>
 	Andrii enjoys doing both frontend and backend jobs. 
 	<br><br>
@@ -27,12 +26,11 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   name: "home",
   components: {
-    HelloWorld
+    
   },
   created() {
 

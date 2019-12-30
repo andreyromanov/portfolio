@@ -13,6 +13,7 @@
   <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
     <router-link to="/uatao">UA-TAO</router-link>
+    <router-link to="/u-build" class="ml-3">U-Build</router-link>
     <router-link to="/wrapcrowd" class="ml-3">WRAPCROWD</router-link>
     <router-link to="/mebtex" class="ml-3">Mebtex</router-link>
     <router-link to="/skytex" class="ml-3">Skytex</router-link>

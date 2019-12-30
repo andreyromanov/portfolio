@@ -9,12 +9,18 @@ export default new MLCreate({
   languages: [
     new MLanguage('En').create({
       title: 'Hello!',
-      msg: 'You have friends and likes'
+      msg: 'You have friends and likes',
+      about: 'About',
+      skills: 'Skills',
+      projects: 'Projects',
     }),
  
     new MLanguage('Укр').create({
       title: 'Oi!',
-      msg: 'Você tem amigos e curtidas'
+      msg: 'Você tem amigos e curtidas',
+      about: 'Про мене',
+      skills: 'Навички',
+      projects: 'Проекти',
     })
   ]
 })

@@ -38,9 +38,9 @@
             </ul>
           </div>
           <div id="main-container" class="col-md-9 border py-2">
-            <router-link to="/">About</router-link> |
-            <router-link to="/skills">Skills</router-link> |
-            <router-link to="/projects">Projects</router-link>
+            <router-link to="/" v-text="$ml.get('about')"/> |
+            <router-link to="/skills" v-text="$ml.get('skills')"/> |
+            <router-link to="/projects" v-text="$ml.get('projects')"/>
 
             <router-view />
           </div>

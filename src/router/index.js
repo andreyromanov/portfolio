@@ -50,6 +50,13 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/projects/uatao.vue")
   },
   {
+    path: "/u-build",
+    name: "u-build",
+    meta: {layout: "top_menu"},
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/projects/u-build.vue")
+  },
+  {
     path: "/wrapcrowd",
     name: "wrapcrowd",
     meta: {layout: "top_menu"},

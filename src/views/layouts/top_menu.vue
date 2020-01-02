@@ -5,7 +5,7 @@
   <router-link class="float-left" to="/projects">
     <i class="fas fa-chevron-left"></i>
     <i class="fas fa-chevron-left"></i>
-    &nbsp;&nbsp;Back to all info</router-link>
+    &nbsp;&nbsp;<span v-text="$ml.get('back')"/></router-link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

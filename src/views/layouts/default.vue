@@ -12,7 +12,7 @@
             <ul id="info-list" class="list-group mt-3 text-left">
               <li class="list-group-item">
                 <i class="far fa-user"></i>
-                <span class="user-info">Andrii Romanov</span>
+                <span class="user-info" v-text="$ml.get('name')"/>
               </li>
               <li class="list-group-item">
                 <i class="fas fa-globe"></i>
@@ -24,7 +24,7 @@
               </li>
               <li class="list-group-item">
                 <i class="far fa-map"></i>
-                <span class="user-info">Odesa, Ukraine</span>
+                <span class="user-info" v-text="$ml.get('basement')"/>
               </li>
               <li class="list-group-item">
                 <button

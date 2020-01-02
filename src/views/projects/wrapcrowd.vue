@@ -9,6 +9,7 @@
         			<span class="badge badge-success mr-3">JavaScript</span>
         			<span class="badge badge-success mr-3">Bootstrap</span>
         			<span class="badge badge-success mr-3">Jquery</span>
+        			<span class="badge badge-primary mr-3">Git</span>
 				</div>
 				<div class="col-md-6 py-3">
 					<h4>Description</h4>

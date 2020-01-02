@@ -23,9 +23,9 @@
 					In frontend skills, Andrii is known for an excellent application of HTML, CSS, and Bootstrap. 
 					</p>
 				</div>
-				<div class="col-md-12">
+				<div v-lazy-container="{ selector: 'img' }" class="col-md-12">
 				<img
-	              src="/projects/mebtex/mt-1-min.png"
+	              data-src="/projects/mebtex/mt-1-min.png"
 	              class="rounded mx-auto d-block proj-img"
 	              alt="Me"
 	            />

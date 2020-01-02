@@ -4,8 +4,10 @@ import router from "./router";
 import './ml';
 
 import BootstrapVue from "bootstrap-vue";
+import VueLazyload from 'vue-lazyload'
 
 Vue.use(BootstrapVue);
+Vue.use(VueLazyload);
 
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";

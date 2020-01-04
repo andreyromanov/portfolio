@@ -27,6 +27,9 @@
             <li><span class="badge badge-success">Git</span></li>
             <li><span class="badge badge-primary">Vue.js</span></li>
             <li><span class="badge badge-success">Wordpress</span></li>
+            <li><span class="badge badge-warning">Docker</span></li>
+            <li><span class="badge badge-warning">Node.js</span></li>
+            <li><span class="badge badge-warning">MongoDB</span></li>
           </ul>
         </div>
         <div class="col-md-6 border-top pt-4">

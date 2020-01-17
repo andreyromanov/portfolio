@@ -1,5 +1,5 @@
-import Vue from 'vue'
-import { MLInstaller, MLCreate, MLanguage } from 'vue-multilanguage'
+import Vue from "vue";
+import { MLInstaller, MLCreate, MLanguage } from "vue-multilanguage";
  
 Vue.use(MLInstaller)
  

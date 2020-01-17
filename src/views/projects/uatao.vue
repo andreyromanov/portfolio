@@ -25,8 +25,13 @@
 				</div>
 				<div v-lazy-container="{ selector: 'img' }" class="col-md-12">
 				<img
-	              data-src="/projects/mebtex/mt-1-min.png"
-	              class="rounded mx-auto d-block proj-img"
+	              data-src="/projects/uatao/put1.jpg"
+	              class="rounded mb-3 d-block proj-img"
+	              alt="Me"
+	            />
+	            <img
+	              data-src="/projects/uatao/put2.jpg"
+	              class="rounded mb-5 d-block proj-img"
 	              alt="Me"
 	            />
 				</div>

@@ -21,8 +21,13 @@
 				</div>
 				<div class="col-md-12">
 				<img
-	              src="/projects/skytex/st-1-min.png"
-	              class="rounded mx-auto d-block proj-img"
+	              src="/projects/skytex/pst1.jpg"
+	              class="rounded mb-3 d-block proj-img"
+	              alt="Me"
+	            />
+	            <img
+	              src="/projects/skytex/pst2.jpg"
+	              class="rounded mb-5 d-block proj-img"
 	              alt="Me"
 	            />
 				</div>

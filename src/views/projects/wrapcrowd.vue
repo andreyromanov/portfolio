@@ -22,8 +22,13 @@
 				</div>
 				<div class="col-md-12">
 				<img
-	              src="/projects/mebtex/mt-1-min.png"
-	              class="rounded mx-auto d-block proj-img"
+	              src="/projects/wrapcrowd/pwc1.jpg"
+	              class="rounded mb-3 d-block proj-img"
+	              alt="Me"
+	            />
+	            <img
+	              src="/projects/wrapcrowd/pwc2.jpg"
+	              class="rounded mb-5 d-block proj-img"
 	              alt="Me"
 	            />
 				</div>

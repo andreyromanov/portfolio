@@ -16,11 +16,8 @@
 				</div>
 				<div class="col-md-6 py-3">
 					<h4>Description</h4>
-					<p class="text-left">Andrii Romanov is a skilled web developer, who is specialized in structuring and developing websites. 
-	
-					Andrii enjoys doing both frontend and backend jobs. 
-	
-					In frontend skills, Andrii is known for an excellent application of HTML, CSS, and Bootstrap. 
+					<p class="text-left">
+					Ubuild 
 					</p>
 				</div>
 				<div class="col-md-12">

@@ -16,14 +16,16 @@
 					Mebtex
 					</p>
 				</div>
-				<div class="col-md-12">
+				<div v-lazy-container="{ selector: 'img' }" class="col-md-6">
 				<img
-	              src="/projects/mebtex/pmt1.jpg"
+	              data-src="/projects/mebtex/pmt1.jpg"
 	              class="rounded mb-3 d-block proj-img"
 	              alt="Me"
 	            />
+	        	</div>
+   				<div v-lazy-container="{ selector: 'img' }" class="col-md-6">
 	            <img
-	              src="/projects/mebtex/pmt2.jpg"
+	              data-src="/projects/mebtex/pmt2.jpg"
 	              class="rounded mb-5 d-block proj-img"
 	              alt="Me"
 	            />

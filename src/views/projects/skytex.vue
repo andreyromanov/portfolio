@@ -16,14 +16,16 @@
 					Skytex
 					</p>
 				</div>
-				<div class="col-md-12">
+				<div v-lazy-container="{ selector: 'img' }" class="col-md-6">
 				<img
-	              src="/projects/skytex/pst1.jpg"
+	              data-src="/projects/skytex/pst1.jpg"
 	              class="rounded mb-3 d-block proj-img"
 	              alt="Me"
 	            />
+	        	</div>
+	        	<div v-lazy-container="{ selector: 'img' }" class="col-md-6">
 	            <img
-	              src="/projects/skytex/pst2.jpg"
+	              data-src="/projects/skytex/pst2.jpg"
 	              class="rounded mb-5 d-block proj-img"
 	              alt="Me"
 	            />

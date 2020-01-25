@@ -20,7 +20,9 @@
               </li>
               <li class="list-group-item">
                 <i class="fab fa-linkedin"></i>
-                <span class="user-info">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/andrii-romanov/" target="_blank">
+                  <span class="user-info">LinkedIn</span>
+                </a>
               </li>
               <li class="list-group-item">
                 <i class="far fa-map"></i>

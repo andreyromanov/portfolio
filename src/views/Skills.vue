@@ -22,7 +22,7 @@
           </ul>
         </div>
         <div class="col-md-6 border-top pt-4">
-          <h4>Other Skills</h4>
+          <h4 v-text="$ml.get('other_skills')"></h4>
           <ul class="mt-3 list-unstyled">
             <li><span class="badge badge-success">Git</span></li>
             <li><span class="badge badge-primary">Vue.js</span></li>
@@ -33,7 +33,7 @@
           </ul>
         </div>
         <div class="col-md-6 border-top pt-4">
-          <h4>Other Experience</h4>
+          <h4 v-text="$ml.get('other_exp')"></h4>
           <ul class="mt-3 list-unstyled">
             <li><span class="badge badge-warning">Zend Framework</span></li>
             <li><span class="badge badge-primary">Browser Exctentions</span></li>
@@ -42,9 +42,9 @@
           </ul>
         </div>
          <div class="col-md-12 border-top pt-4">
-          <span class="badge badge-success mr-3">Very good</span>
-          <span class="badge badge-primary mr-3">Good</span>
-          <span class="badge badge-warning mr-3">Okay</span>
+          <span class="badge badge-success mr-3" v-text="$ml.get('very_good')"></span>
+          <span class="badge badge-primary mr-3" v-text="$ml.get('good')"></span>
+          <span class="badge badge-warning mr-3" v-text="$ml.get('okay')"></span>
         </div>
     </div>
 </transition>

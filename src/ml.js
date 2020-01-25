@@ -10,24 +10,29 @@ export default new MLCreate({
     new MLanguage('En').create({
       name: 'Andrii Romanov',
       basement: 'Odesa, Ukraine',
-      title: 'Hello!',
-      msg: 'You have friends and likes',
       about: 'About',
       skills: 'Skills',
-      projects: 'Projects',
       back: 'Back',
+      projects: 'Projects',
+      other_skills: 'Other skills',
+      other_exp: 'Other Experience',
+      very_good: 'Very good',
+      good: 'Good',
+      okay: 'Okay',
     }),
  
     new MLanguage('Укр').create({
       name: 'Андрій Романов',
       basement: 'Одеса, Україна',
-      title: 'Oi!',
-      msg: 'Você tem amigos e curtidas',
       about: 'Про мене',
       skills: 'Навички',
-      projects: 'Проекти',
       back: 'Назад',
-
+      projects: 'Проекти',
+      other_skills: 'Інші навички',
+      other_exp: 'Інший досвід',
+      very_good: 'Дуже добре',
+      good: 'Добре',
+      okay: 'Нормально',
     })
   ]
 })

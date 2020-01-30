@@ -17,7 +17,7 @@
 				<div class="col-md-6 py-3">
 					<h4>Description</h4>
 					<p class="text-left">
-					Ubuild 
+					The application for building company. It allows to manage the process of building (create task, order materials, hire workers). Also it provides economic and statistical analysis in order to help manager take right decisions. It is developed with Laravel framework, Bootstrap and MySql.
 					</p>
 				</div>
 				<div v-lazy-container="{ selector: 'img' }" class="col-md-6">

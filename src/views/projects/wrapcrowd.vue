@@ -14,7 +14,7 @@
 				<div class="col-md-6 py-3">
 					<h4>Description</h4>
 					<p class="text-left">
-					WrapCrowd
+					In the course of work on the project, I held the position of frontend developer. Main task was to create webpages with adaptive design and optimize existing ones. Used technologies - HTML, CSS, JavaScript, Bootstrap and Jquery.
 					</p>
 				</div>
 				<div v-lazy-container="{ selector: 'img' }" class="col-md-6">

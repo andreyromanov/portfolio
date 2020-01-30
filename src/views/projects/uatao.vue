@@ -17,7 +17,7 @@
 				<div class="col-md-6 py-3">
 					<h4>Description</h4>
 					<p class="text-left">
-					Uatao
+					Multi purpose project.
 					</p>
 				</div>
 				<div v-lazy-container="{ selector: 'img' }" class="col-md-6">

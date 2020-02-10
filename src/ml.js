@@ -19,6 +19,8 @@ export default new MLCreate({
       very_good: 'Very good',
       good: 'Good',
       okay: 'Okay',
+      tools: 'Used tools',
+      description: 'Description',
     }),
  
     new MLanguage('Укр').create({
@@ -33,6 +35,8 @@ export default new MLCreate({
       very_good: 'Дуже добре',
       good: 'Добре',
       okay: 'Нормально',
+      tools: 'Використані технології',
+      description: 'Опис',
     })
   ]
 })

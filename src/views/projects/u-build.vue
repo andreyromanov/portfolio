@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 py-3">
-					<h4>Used tools</h4>
+					<h4 v-text="$ml.get('tools')"></h4>
 					<span class="badge badge-success mr-3">Php</span>
 					<span class="badge badge-success mr-3">Laravel</span>
         			<span class="badge badge-success mr-3">Html</span>
@@ -15,7 +15,7 @@
         			<span class="badge badge-primary mr-3">Git</span>
 				</div>
 				<div class="col-md-6 py-3">
-					<h4>Description</h4>
+					<h4 v-text="$ml.get('description')"></h4>
 					<p class="text-left">
 					The application for building company. It allows to manage the process of building (create task, order materials, hire workers). Also it provides economic and statistical analysis in order to help manager take right decisions. It is developed with Laravel framework, Bootstrap and MySql.
 					</p>

@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 py-3">
-					<h4>Used tools</h4>
+					<h4 v-text="$ml.get('tools')"></h4>
 					<span class="badge badge-success mr-3">Wordpress</span>
         			<span class="badge badge-success mr-3">Html</span>
         			<span class="badge badge-success mr-3">Css</span>
@@ -11,7 +11,7 @@
         			<span class="badge badge-primary mr-3">Adobe Photoshop</span>
 				</div>
 				<div class="col-md-6 py-3">
-					<h4>Description</h4>
+					<h4 v-text="$ml.get('description')"></h4>
 					<p class="text-left">
 					Mebtex is a textile delivery company. A website was developed using CMS Wordpress. During the work, some files were modified using php, html and css. Developed home page and contact page. Also in the course of work, Adobe Photoshop was used to process photos of goods.
 					</p>

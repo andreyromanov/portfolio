@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 py-3">
-					<h4>Used tools</h4>
+					<h4 v-text="$ml.get('tools')"></h4>
 					<span class="badge badge-success mr-3">Php</span>
 					<span class="badge badge-success mr-3">Laravel</span>
         			<span class="badge badge-success mr-3">Html</span>
@@ -15,9 +15,15 @@
         			<span class="badge badge-primary mr-3">Git</span>
 				</div>
 				<div class="col-md-6 py-3">
-					<h4>Description</h4>
+					<h4 v-text="$ml.get('description')"></h4>
 					<p class="text-left">
-					Multi purpose project.
+					In the course of work on the project, I held the position of fullstack web developer.
+					<ul>
+						<li>Supporting websites</li>
+						<li>Developing browser extentions</li>
+						<li>Laravel console commands</li>
+						<li>Developing chat bots</li>
+					</ul>
 					</p>
 				</div>
 				<div v-lazy-container="{ selector: 'img' }" class="col-md-6">

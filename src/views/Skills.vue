@@ -19,6 +19,7 @@
             <li><span class="badge badge-success">PHP</span></li>
             <li><span class="badge badge-success">Laravel</span></li>
             <li><span class="badge badge-primary">MySQL</span></li>
+            <li><span class="badge badge-warning">Elasticsearch</span></li>
           </ul>
         </div>
         <div class="col-md-6 border-top pt-4">
@@ -35,10 +36,11 @@
         <div class="col-md-6 border-top pt-4">
           <h4 v-text="$ml.get('other_exp')"></h4>
           <ul class="mt-3 list-unstyled">
-            <li><span class="badge badge-warning">Zend Framework</span></li>
+            <li><span class="badge badge-primary">Electron</span></li>
+            <li><span class="badge badge-primary">Telegram / Viber bot</span></li>
             <li><span class="badge badge-primary">Browser Exctentions</span></li>
             <li><span class="badge badge-primary">Linux / Windows</span></li>
-
+            <li><span class="badge badge-warning">Zend Framework</span></li>
           </ul>
         </div>
          <div class="col-md-12 border-top pt-4">

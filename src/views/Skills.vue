@@ -40,6 +40,7 @@
             <li><span class="badge badge-primary">Telegram / Viber bot</span></li>
             <li><span class="badge badge-primary">Browser Exctentions</span></li>
             <li><span class="badge badge-primary">Linux / Windows</span></li>
+            <li><span class="badge badge-warning">Nuxt.js</span></li>
             <li><span class="badge badge-warning">Zend Framework</span></li>
           </ul>
         </div>

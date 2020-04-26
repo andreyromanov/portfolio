@@ -62,11 +62,18 @@ const routes = [
     meta: {layout: "top_menu"},
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/projects/wrapcrowd.vue")
+  },
+  {
+    path: "/demo/app-starter",
+    name: "demo-app-starter",
+    meta: {layout: "demo"},
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/demos/app-starter/index.vue")
   }
 ];
 
 const router = new VueRouter({
-  mode: "hash",
+  mode: "history",
   routes
 });
 

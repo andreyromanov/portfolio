@@ -17,9 +17,11 @@ import "@fortawesome/fontawesome-free/js/all.js";
 
 import Default from "./views/layouts/default.vue";
 import TopMenu from "./views/layouts/top_menu.vue";
+import Demo from "./views/layouts/demo.vue";
 
 Vue.component("default-layout", Default);
 Vue.component("top_menu-layout", TopMenu);
+Vue.component("demo-layout", Demo);
 
 Vue.config.productionTip = false;
 /* eslint-disable no-console */

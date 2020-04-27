@@ -81,33 +81,36 @@ body {
    line-height: 200px;
    text-align: center;
  }
+
+ #ut:hover, #wc:hover, #mt:hover, #st:hover, #ub:hover, #app-starter:hover, #cl:hover{
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+ }
+
  #ut:hover{
-   cursor: pointer;
-   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
    background-color: rgba(227, 76, 2, 0.5);
  }
 
  #wc:hover{
-   cursor: pointer;
-   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
    background-color: lightblue;
  }
 
  #mt:hover{
-   cursor: pointer;
-   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
    background-color: lightgreen;
  }
 
  #st:hover{
-   cursor: pointer;
-   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
    background-color: orange;
  }
  #ub:hover{
-   cursor: pointer;
-   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
    background-color: #dcdcdc;
+ }
+ #app-starter:hover{
+   background-image:url('/css/demos/app-starter/img/Background.png');
+   background-size: 100% 100%; 
+ }
+ #cl:hover{
+   background-color: tomato;
  }
  
  a.card-a{

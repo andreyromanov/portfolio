@@ -7,7 +7,11 @@
 	    		<router-link to="/demo/app-starter">
 	                  <a class="card-a">
 	                    <div id="cl" class="card-body cards">
-	                        <h2 class="card-title mt-5">ChineseLogic</h2>
+	                        <img
+				              src="/cl-logo.png"
+				              class="rounded mx-auto d-block"
+				              alt="Me" style="width: 40%;"
+				            />
 	                    </div>
 	                  </a>
 	            </router-link>
@@ -18,7 +22,11 @@
     			<router-link to="/uatao">
                   <a class="card-a">
                     <div id="ut" class="card-body cards">
-                        <h2 class="card-title mt-5">UA-TAO</h2>
+                        <img
+			              src="/uatao.png"
+			              class="rounded mt-2 mx-auto d-block"
+			              alt="Me" style="width: 40%;"
+			            />
                     </div>
                   </a>
                 </router-link>
@@ -85,7 +93,11 @@
 	    		<router-link to="/skytex">
 	                  <a class="card-a">
 	                    <div id="st" class="card-body cards">
-	                        <h2 class="card-title mt-5">Skytex</h2>
+	                        <img
+				              src="/sky-logo.svg"
+				              class="rounded mt-4 mx-auto d-block"
+				              alt="Me" style="width: 50%;"
+				            />
 	                    </div>
 	                  </a>
 	            </router-link>

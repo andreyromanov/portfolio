@@ -64,6 +64,13 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/projects/wrapcrowd.vue")
   },
   {
+    path: "/chineselogic",
+    name: "chineselogic",
+    meta: {layout: "top_menu"},
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/projects/chineselogic.vue")
+  },
+  {
     path: "/app-starter",
     name: "app-starter",
     meta: {layout: "top_menu"},

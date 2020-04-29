@@ -12,12 +12,13 @@
 
   <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
-    <label class="prj-menu"><router-link to="/app-starter" class="ml-3">AppStarter</router-link></label>
-    <label class="prj-menu"><router-link to="/uatao" class="ml-3">UA-TAO</router-link></label>
-    <label class="prj-menu"><router-link to="/u-build" class="ml-3">U-Build</router-link></label>
-    <label class="prj-menu"><router-link to="/wrapcrowd" class="ml-3">WRAPCROWD</router-link></label>
-    <label class="prj-menu"><router-link to="/mebtex" class="ml-3">Mebtex</router-link></label>
-    <label class="prj-menu"><router-link to="/skytex" class="ml-3">Skytex</router-link></label>
+      <label class="prj-menu"><router-link to="/chineselogic" class="ml-3">ChineseLogic</router-link></label>
+      <label class="prj-menu"><router-link to="/uatao" class="ml-3">UA-TAO</router-link></label>
+      <label class="prj-menu"><router-link to="/u-build" class="ml-3">U-Build</router-link></label>
+      <label class="prj-menu"><router-link to="/app-starter" class="ml-3">AppStarter</router-link></label>
+      <label class="prj-menu"><router-link to="/wrapcrowd" class="ml-3">WRAPCROWD</router-link></label>
+      <label class="prj-menu"><router-link to="/mebtex" class="ml-3">Mebtex</router-link></label>
+      <label class="prj-menu"><router-link to="/skytex" class="ml-3">Skytex</router-link></label>
   </div>
 </nav>
 

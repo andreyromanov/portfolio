@@ -2,22 +2,22 @@
   <div class=" pt-4">
   	<transition appear name="fade">
     <div class="row">
-    	<div class="col-md-6 col-xs-12 mb-3">
+    	<div class="col-md-4 col-xs-12 mb-3">
 	    	<div class="card">
-	    		<router-link to="/demo/app-starter">
+	    		<router-link to="/chineselogic">
 	                  <a class="card-a">
 	                    <div id="cl" class="card-body cards">
 	                        <img
 				              src="/cl-logo.png"
 				              class="rounded mx-auto d-block"
-				              alt="Me" style="width: 40%;"
+				              alt="Me" style="width: 70%;"
 				            />
 	                    </div>
 	                  </a>
 	            </router-link>
             </div>
 	    </div>
-    	<div class="col-md-6 col-xs-12 mb-3">
+    	<div class="col-md-4 col-xs-12 mb-3">
     		<div class="card">
     			<router-link to="/uatao">
                   <a class="card-a">
@@ -25,14 +25,14 @@
                         <img
 			              src="/uatao.png"
 			              class="rounded mt-2 mx-auto d-block"
-			              alt="Me" style="width: 40%;"
+			              alt="Me" style="width: 70%;"
 			            />
                     </div>
                   </a>
                 </router-link>
             </div>
         </div>
-         <div class="col-md-6 col-xs-12 mb-3">
+         <div class="col-md-4 col-xs-12 mb-3">
 	    	<div class="card">
 	    		<router-link to="/u-build">
 	                  <a class="card-a">
@@ -43,7 +43,7 @@
 	            </router-link>
             </div>
 	    </div>
-	    <div class="col-md-6 col-xs-12 mb-3">
+	    <div class="col-md-4 col-xs-12 mb-3">
 	    	<div class="card">
 	    		<router-link to="/app-starter">
 	                  <a class="card-a">
@@ -51,14 +51,14 @@
 	                        <img
 				              src="/css/demos/app-starter/img/App Icon.png"
 				              class="rounded mx-auto mt-4 d-block"
-				              alt="Me" style="width: 30%;"
+				              alt="Me" style="width: 50%;"
 				            />
 	                    </div>
 	                  </a>
 	            </router-link>
             </div>
 	    </div>
-    	<div class="col-md-6 col-xs-12 mb-3">
+    	<div class="col-md-4 col-xs-12 mb-3">
 	    	<div class="card">
 	    		<router-link to="/wrapcrowd">
 	                  <a class="card-a">
@@ -66,14 +66,14 @@
 					        <img
 				              src="/logo.png"
 				              class="rounded mx-auto mt-5 d-block"
-				              alt="Me" style="width: 50%;"
+				              alt="Me" style="width: 70%;"
 				            />
 	                    </div>
 	                  </a>
                 </router-link>
             </div>
 	    </div>
-    	<div class="col-md-6 col-xs-12 mb-3">
+    	<div class="col-md-4 col-xs-12 mb-3">
 	    	<div class="card">
 	    		<router-link to="/mebtex">
 	                  <a class="card-a">
@@ -81,14 +81,14 @@
 	                        <img
 				              src="/mebtexlogo.png"
 				              class="rounded mx-auto mt-4 d-block"
-				              alt="Me" style="width: 50%;"
+				              alt="Me" style="width: 70%;"
 				            />
 	                    </div>
 	                  </a>
 	            </router-link>
             </div>
 	    </div>
-	    <div class="col-md-6 col-xs-12 mb-3">
+	    <div class="col-md-4 col-xs-12 mb-3">
 	    	<div class="card">
 	    		<router-link to="/skytex">
 	                  <a class="card-a">
@@ -96,7 +96,7 @@
 	                        <img
 				              src="/sky-logo.svg"
 				              class="rounded mt-4 mx-auto d-block"
-				              alt="Me" style="width: 50%;"
+				              alt="Me" style="width: 70%;"
 				            />
 	                    </div>
 	                  </a>

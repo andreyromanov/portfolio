@@ -17,7 +17,7 @@
 				<div class="col-md-6 py-3">
 					<h4 v-text="$ml.get('description')"></h4>
 					<p class="text-left">
-					ChineseLogic is a textile delivery company. A website was developed using CMS Wordpress. During the work, some files were modified using php, html and css. Developed home page and contact page. Also in the course of work, Adobe Photoshop was used to process photos of goods.
+					ChineseLogic is an online studying platform. It is developed with Laravel framework, Javascript, Bootstrap and MySql. It has dashboards for students, teachers and admins.
 					</p>
 				</div>
 				<div v-lazy-container="{ selector: 'img' }" class="col-md-6">

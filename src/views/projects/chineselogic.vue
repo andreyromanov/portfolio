@@ -18,6 +18,14 @@
 					<h4 v-text="$ml.get('description')"></h4>
 					<p class="text-left">
 					ChineseLogic is an online studying platform. It is developed with Laravel framework, Javascript, Bootstrap and MySql. It has dashboards for students, teachers and admins.
+					This app includes variety of functions:
+					<ul>
+						<li>Supporting websites</li>
+						<li>Developing browser extentions</li>
+						<li>Laravel console commands</li>
+						<li>Developing chat bots</li>
+						<li>Supporting additional components of the company</li>
+					</ul>
 					</p>
 				</div>
 				<div v-lazy-container="{ selector: 'img' }" class="col-md-6">

@@ -25,7 +25,7 @@
                 <div class="col-md-6 py-3">
                     <h4 v-text="$ml.get('description')"></h4>
                     <p class="text-left">
-                        AppStareter is a landing page template. It can be used for any modern website. It was developed with html, css, javascript and bootstrap framework.
+                        AppStareter is a landing page template which is responsive and multipurpose. It can be used for any modern website and doesn't depend on website theme. AppStarter is developed with html, css, javascript and bootstrap framework and looks good on PCs, tablets and mobile phones. It can be easily modified for any purposes and make any website look user friendly.
                     </p>
                 </div>
                 <div v-lazy-container="{ selector: 'img' }" class="col-md-6">

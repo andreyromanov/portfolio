@@ -20,11 +20,11 @@
 					ChineseLogic is an online studying platform. It is developed with Laravel framework, Javascript, Bootstrap and MySql. It has dashboards for students, teachers and admins.
 					This app includes variety of functions:
 					<ul>
-						<li>Supporting websites</li>
-						<li>Developing browser extentions</li>
-						<li>Laravel console commands</li>
-						<li>Developing chat bots</li>
-						<li>Supporting additional components of the company</li>
+						<li>Booking lessons</li>
+						<li>Paid content (books, videos)</li>
+						<li>Telegram notifications</li>
+						<li>Budjet monitoring</li>
+						<li>CMS</li>
 					</ul>
 					</p>
 				</div>

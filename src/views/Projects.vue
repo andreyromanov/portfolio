@@ -10,7 +10,7 @@
 	                        <img
 				              src="/cl-logo.png"
 				              class="rounded mx-auto d-block"
-				              alt="Me" style="width: 70%;"
+				              alt="Me" style="max-width: 100%;max-height: 100%"
 				            />
 	                    </div>
 	                  </a>
@@ -25,7 +25,7 @@
                         <img
 			              src="/uatao.png"
 			              class="rounded mt-2 mx-auto d-block"
-			              alt="Me" style="width: 70%;"
+			              alt="Me" style="max-width: 100%;max-height: 100%"
 			            />
                     </div>
                   </a>
@@ -50,8 +50,8 @@
 	                    <div id="app-starter" class="card-body cards">
 	                        <img
 				              src="/css/demos/app-starter/img/App Icon.png"
-				              class="rounded mx-auto mt-4 d-block"
-				              alt="Me" style="width: 50%;"
+				              class="rounded mx-auto mt-2 d-block"
+				              alt="Me" style="max-width: 100%;max-height: 90%"
 				            />
 	                    </div>
 	                  </a>
